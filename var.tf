@@ -7,13 +7,13 @@
 variable "resource_group" {
   description = "resource group name"
   type        = string
-  default     = "Shravani_HandsOn_Lab"
+  default     = ""
 }
 
 variable "location" {
   description = "location "
   type        = string
-  default     = "East US"
+  default     = ""
 }
 /*variable "account_tier" {
   description = "account tier "
