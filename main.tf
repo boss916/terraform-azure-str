@@ -30,7 +30,7 @@ resource "azurerm_storage_account" "storage" {
     last_access_time_enabled = true
     change_feed_enabled      = false
   }
-  allow_blob_public_access = false
+  #allow_blob_public_access = false
 
 
   tags =  "${var.tags}"
